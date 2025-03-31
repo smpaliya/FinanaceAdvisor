@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Julius+Sans+One&display=swap');
+.eb-garamond-italic> {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /*  */
+
+body {
+  font-family:  "EB Garamond", serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  background-color: #EFE9D5;
+}
+.ExpenseCounterDiv{
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ExpenseCounter {
+  background-color: #8fcbee;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  justify-self: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+label.l1 {
+  display: block;
+  margin-bottom: 5px;
+  color: #27445D;
+}
+label.l1:hover{
+  border-color: #27445D;
+    
+}
+.ECinput{
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+br {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #181819;
+  color: #181819;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: none;
+  transition: all 0.3s cubic-bezier(.23, 1, 0.320, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.button-57::before {
+  content: "";
+  background-color: #ffe6a7;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateX(-100%);
+  transition: all .3s ease;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-57:hover {
+  color: #fff;
+  border-color: #ffe6a7;
+}
+
+.button-57:hover::before {
+  transform: translateX(0);
+}
+
+.button-57:active {
+  box-shadow: none;
+}

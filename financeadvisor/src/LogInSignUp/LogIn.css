@@ -1,0 +1,91 @@
+/* Global styles */
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }*/
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Julius+Sans+One&display=swap');
+.eb-garamond-italic> {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .login-form{
+    background:linear-gradient(142deg, #71BBB2 19%, #27445D 100%);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 3vh;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    h1{
+      margin-left: 2vw;
+    }
+    /* Form container */
+    
+    .signuptitle{
+      margin-top: 14vh;
+    
+    }
+    /* Labels */
+    .loginlabel {
+      display: block;
+      font-family: "EB Garamond", serif;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      font-size: 2rem;
+      color: #EFE9D5;
+      
+    }
+    
+.logintext,.loginpassword{
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      justify-self: center;
+      margin-left: -2vw;
+      font-size: 1rem;
+    }
+ 
+    .logintext:focus,.loginpassword:focus{
+      outline: none;
+      border-color: #27445D;
+      box-shadow: 0 0 0 2px rgba(7, 79, 36, 0.2);
+    }
+    
+    /* Submit button */
+    .loginbutton {
+      width: 100%;
+      padding: 0.75rem;
+      background-color:#71BBB2;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .loginbutton:hover {
+      background-color: #EFE9D5;
+      color: #27445D;
+    }
+    
+    /* Responsive design */
+    @media (max-width: 400px) {
+      form {
+        width: 90%;
+        padding: 1.5rem;
+      }
+    }
+  }
+  
